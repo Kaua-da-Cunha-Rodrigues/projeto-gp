@@ -54,13 +54,7 @@ header h1{
   transform: translate(-50%, -50%);
 }
 header img{
-  width: 150px;
-}
-header .icones{
-  display: flex;
-}
-header .icones img{
-    width: 20px;
+  width: 200px;
 }
 header .titulo{
     width: 100%;
