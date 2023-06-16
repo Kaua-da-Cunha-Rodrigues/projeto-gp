@@ -1,0 +1,28 @@
+@media (max-width: 960px){
+    #logoSenai{
+        display: none;
+    }    
+    main h1,h2,p{
+        padding: 20px;
+    }
+}
+@media (max-width: 750px){
+    main{
+        padding: 0;
+    }
+    main h2{
+        width: 100%;
+        text-align: center;
+        background-color: #468C7F;
+        color: #102B30;
+    }
+}
+@media (max-width: 555px){
+    header h1{
+        width: 100%;
+        font-size: 2em;
+    }
+    header img{
+        width: 150px;
+    }
+}
