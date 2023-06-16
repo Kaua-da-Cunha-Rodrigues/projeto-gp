@@ -27,6 +27,9 @@
         width: 100%;
         font-size: 2em;
     }
+    nav a{
+        font-size: 0.8em;
+    }
 }
 @media (max-width:450px){
     header img{
