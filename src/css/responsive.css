@@ -7,6 +7,9 @@
     }
 }
 @media (max-width: 750px){
+    header img{
+        width: 150px;
+    }
     main{
         padding: 0;
     }
@@ -22,7 +25,7 @@
         width: 100%;
         font-size: 2em;
     }
-    header img{
-        width: 150px;
+    nav a{
+        
     }
 }

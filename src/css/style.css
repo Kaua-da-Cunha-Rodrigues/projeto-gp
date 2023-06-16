@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 *{
   margin: 0;
@@ -16,7 +16,7 @@
   
   --fontePadrao: 'Poppins', sans-serif;;
   --fonteDestaque: 'Sofia Sans', sans-serif;;
-  --fonteTitulo: 'Lobster', cursive;
+  --fonteTitulo: 'Bungee', cursive;
 }
 html{
     scroll-behavior: smooth;
@@ -50,9 +50,11 @@ header{
   background-color: var(--cor1);
 }
 header h1{
-  color: white;
+  color: rgb(209, 209, 209);
   font-family: var(--fonteTitulo);
+  letter-spacing: 2px;
   text-align: center;
+  line-height: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
