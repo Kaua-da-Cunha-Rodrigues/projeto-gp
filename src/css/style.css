@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+  --cor0: #123159;
+  --cor1: #0F3D59;
+  --cor2: #0D2426;
+  --cor3: #468C7F;
+  --cor4: #102B30;
+  
+  --fontePadrao: 'Poppins', sans-serif;;
+  --fonteDestaque: 'Sofia Sans', sans-serif;;
+  --fonteTitulo: ;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+  font-family: var(--fonteDestaque);
+  font-size: 2.5em;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+span{
+    color: var(--cor3);
+    background-color: var(--cor1);
+    padding: 2px;
+    border-radius: 2px;
+}
+span a{
+    color: var(--cor3);
+}
+span a:hover{
+    text-decoration: underline;
+}
+body{
+  font-family: var(--fontePadrao);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--cor1);
+}
+header h1{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header img{
+  width: 150px;
+}
+header .icones{
+  display: flex;
+}
+header .icones img{
+    width: 20px;
+}
+header .titulo{
+    width: 100%;
+    position: relative;
+}
+nav{
+  background-color: var(--cor3); 
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+}
+nav a{
+  padding: 10px;
+  color: white;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+main{
+  max-width: 1080px;
+  padding: 10px;
+  margin: auto;
+}
+main h1{
+  text-align: center;
+  color: var(--cor4);
+}
+main h1,h2,p{
+    padding-bottom: 10px;
+}
+main .saibaMais a{
+  color: var(--cor3);
+  background-color: var(--cor2);
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+main .saibaMais a:hover{
+  background-color: var(--cor3);
+  color: var(--cor2);
+  transform: scale(1.05);
+}
+main .saibaMais h2, p{
+    text-align: center;
+}
+footer{
+  background-color: var(--cor1);
+  text-align: center;
+  padding-top: 10px;
+}
+footer .container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+footer .logo img {
+  width: 300px;
+  border-radius: 100%;
+}
+
+footer .contact-info p {
+  color: white;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+footer .links h4 {
+  margin-top: 10px;
+  color: var(--cor3);
+}
+
+footer .links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+footer .links ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .links ul li a:hover {
+  color: var(--cor4);
+}
